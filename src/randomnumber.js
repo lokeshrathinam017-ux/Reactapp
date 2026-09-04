@@ -19,6 +19,7 @@ return(
        <h1>Random Number Generator</h1>
        <p>True pseudo integer generation with zero telemetry </p>
     <p className="random-value">{count}</p>
+       {count ===0 ? <p className="randomnum-limit">! No Number Generated Yet</p>:null}
        <div className="randomnum-control">
           <button className="generate-button" onClick={handlernum}> Generate Random Number</button>
           <button className="reset-btn" onClick={handlereset}> Reset</button>

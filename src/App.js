@@ -3,7 +3,7 @@ import Navbar from './navbar';
 import Counterapp from './counterapp';        
 import RandomNumber from './randomnumber';   
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
       <Navbar />
@@ -14,3 +14,5 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
+export default App;
